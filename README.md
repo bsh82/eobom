@@ -1,4 +1,4 @@
-# haqqaton-boilerplate-server
+# ieobom_server
 
 - typescript
 - fastify
