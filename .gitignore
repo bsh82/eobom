@@ -1,0 +1,4 @@
+node_modules
+logs
+ormconfig.*.json
+.env
