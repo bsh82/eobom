@@ -2,5 +2,5 @@
 
 - typescript
 - fastify
-- mariadb
+- mysql
 - typeorm
