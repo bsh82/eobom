@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+/.pnp
+/.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# OS-specific or misc
+.DS_Store
+Thumbs.db
+
+# 환경변수 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / Editor 설정
+.vscode/
+.idea/
+
+# ESLint 캐시 (있다면)
+/.eslintcache
+
+# TypeScript 빌드 결과(예: dist 폴더 사용 시)
+/dist
+
+# firebase
+/.firebase
+.firebaserc
+firebase.json

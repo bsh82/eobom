@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    // JS 허용 여부 (JS/TS 혼용할 경우 true)
+    "allowJs": false,
+    // 타사 라이브러리 타입 검사 건너뛰기
+    "skipLibCheck": true,
+    "strict": true,
+    // 파일 이름 대소문자 일관성
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    // CRA에서는 ESNext 모듈 사용
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    // CRA에서는 실제 빌드 산출물은 react-scripts가 처리하므로 noEmit 사용
+    "noEmit": true,
+    // React 18 사용 시: "jsx": "react-jsx" (CRA 5+)
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}

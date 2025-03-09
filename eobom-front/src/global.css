@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply h-full;
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 400;
+  src: local("Pretendard Regular"),
+    url("../public/assets/fonts/pretendard/Pretendard-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 500;
+  src: local("Pretendard Medium"),
+    url("../public/assets/fonts/pretendard/Pretendard-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 600;
+  src: local("Pretendard SemiBold"),
+    url("../public/assets/fonts/pretendard/Pretendard-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 700;
+  src: local("Pretendard Bold"),
+    url("../public/assets/fonts/pretendard/Pretendard-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 800;
+  src: local("Pretendard ExtraBold"),
+    url("../public/assets/fonts/pretendard/Pretendard-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 900;
+  src: local("Pretendard Black"),
+    url("../public/assets/fonts/pretendard/Pretendard-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Jalpullineun Day;
+  font-weight: 500;
+  src: local("JalpullineunDay Medium"),
+    url("../public/assets/fonts/jalpullineun-day/Jalpullineun-Day-Medium.ttf") format("truetype");
+}
